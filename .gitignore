@@ -1,0 +1,28 @@
+# ArcGIS Pro lock files
+*.lock
+
+# Geodatabase temporary files
+*.sr.lock
+*.wal
+*.journal
+
+# Geodatabase indexes
+*.gdbindexes
+*.gdbtable
+*.freelist
+*.atx
+
+# ArcGIS caches
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
